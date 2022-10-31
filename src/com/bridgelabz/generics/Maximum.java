@@ -1,7 +1,7 @@
 package com.bridgelabz.generics;
 
 public class Maximum {
-	public void findMax(Integer n1 , Integer n2, Integer n3) {
+	public void findMax(Float n1 , Float n2, Float n3) {
 		if(n1.compareTo(n2)>=0 && n1.compareTo(n3)>=0) {
 			System.out.println(n1+" is maximum number.");
 		}

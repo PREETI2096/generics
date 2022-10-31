@@ -10,11 +10,11 @@ public class MaximumMain {
 			Maximum obj = new Maximum();
 			
 			System.out.println("Enter first number:");
-			int n1 = sc.nextInt();
+			float n1 = sc.nextInt();
 			System.out.println("Enter second number:");
-			int n2 = sc.nextInt();
+			float n2 = sc.nextInt();
 			System.out.println("Enter third number:");
-			int n3 = sc.nextInt();
+			float n3 = sc.nextInt();
 			sc.close();
 			
 			obj.findMax(n1, n2, n3);
