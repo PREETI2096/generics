@@ -1,15 +1,15 @@
 package com.bridgelabz.generics;
 
 public class Maximum {
-	public void findMax(Float n1 , Float n2, Float n3) {
-		if(n1.compareTo(n2)>=0 && n1.compareTo(n3)>=0) {
-			System.out.println(n1+" is maximum number.");
+	public void findMax(String x , String y , String  z) {
+		if(x.compareTo(y)>=0 && x.compareTo(z)>=0) {
+			System.out.println(x+" is maximum number.");
 		}
-		else if(n2.compareTo(n1)>=0 && n2.compareTo(n3)>=0){
-		System.out.println(n2+" is maximum");
+		else if(y.compareTo(x)>=0 && y.compareTo(z)>=0){
+		System.out.println(y+" is maximum");
 		}
 		else {
-		System.out.println(n3 + " is maximum");
+		System.out.println(z + " is maximum");
 	}	
 }
 
